@@ -23,5 +23,22 @@
     
   </ul>
 </li>
-  
+  <li>Classe Compra
+    <ul>
+      <li>Atributos
+        <ul>
+          <li>Nome do cliente</li>
+          <li>Quantidades da cada prato</li>
+          <li>Metodo de pagamento</li>
+          <li>Total da compra</li>
+        </ul>
+        <li>Metodos
+          <ul>
+            <li>compra</li>
+          </ul>
+        </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
 </ol>
