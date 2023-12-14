@@ -62,4 +62,7 @@
 
 <P>-public void gerer_comanda: Método em que o sistema gerara uma comanda com as informações do pedido</P> 
 
+<h1>Requisitos funcionais</h1>
+|Codigo|Nome|Objetivo|
+
   
