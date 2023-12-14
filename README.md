@@ -1,44 +1,65 @@
-<h1> Introdução </h1>
-<h2>Aspectos gerais </h2>
-<p>Trata-se de um sistema de restaurante onde o usuario terá acesso a um cardapio que informa o nome do prato, o preço e sua descrição. Nele o usurio informara qual o prato ele deseja e sua qunatidade. A partir disso será gerado o valor total da compra e o usuario escolhera o metedo de pagamento e será gerado uma nota fiscal.</p>
-<h2>Objetivos</h2>
-<ul>
-  <li>Tornar o atendimento rapido</li>
-  <li>Tornar o atendimento acessivel</li>
-  <li>Velocidade no processamento de informações da compra</li>
-</ul>
-<h1>Tecnologias utilizadas</h1>
-<p>É um projeto orientado a ojetos onde foi utilizado a linguagem c# e a IDE visula studio commumity</p>
-<h1>Caracteristicas do codigo</h1>
-<ol>
-<li>Classe Cardapio
-  <ul>
-     <li>Atributos
-     <ul>
-       <li>Nome do prato</li>
-       <li>Preço do prato</li>
-       <li>Descrição do prato</li>
-     </ul>
-     </li>
-    
-  </ul>
-</li>
-  <li>Classe Compra
-    <ul>
-      <li>Atributos
-        <ul>
-          <li>Nome do cliente</li>
-          <li>Quantidades da cada prato</li>
-          <li>Metodo de pagamento</li>
-          <li>Total da compra</li>
-        </ul>
-        <li>Metodos
-          <ul>
-            <li>compra</li>
-          </ul>
-        </li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-</ol>
+<h1>Resumo</h1> 
+
+<p>Um sistema de um pequeno empreendedor de comida italiana que precisa diminuir custos e agilizar o processo de venda. Neste sistema o usuário pode selecionar o prato que deseja e sua quantidade. A partir disso será gerado um valor total e o usuário escolhera o método de pagamento. Depois inserirá seu nome e uma comanda será gerada com as informações da compra. </p> 
+
+<h1>Tecnologias utilizadas</h1> 
+
+<p>Projeto orientado a objetos onde foi utilizado a linguagem C# e a IDE Visual Studio Community</p> 
+
+<h1>Instruções de funcionamento</h1> 
+
+<h2>Passo 1</h2> 
+
+<p>O usuário escolhe um dos pratos que deseja e depois a quantidade. O sistema perguntara se ele quer mais alguma coisa, caso sua resposta seja sim poderá escolher novamente o prato e a quantidade, caso não o sistema segue para o próximo passo</p> 
+
+<h2>Passo 2</h2> 
+
+<p>O valor total dos produtos será gerado e o usuário escolhera agora seu método de pagamento que pode ser em dinheiro, débito, crédito ou pix. Caso seja selecionado dinheiro ele precisa inserir um valor e caso este valor não seja suficiente aparecerá uma mensagem avisando o usuário para pôr outro valor que se for suficiente o sistema mostrara o troco caso haja algum. Caso selecionado crédito o usuário informará quantas vezes o valor será dividido e o sistema mostrara as parcelas. Caso seja pix ou débito o sistema segue para o próximo passo. Mas antes de seguir para ele o sistema perguntara se o usuário confirma ou não o método de pagamento, caso sua resposta seja não ele poderá selecionar um novo, caso sim o usuário segue para o próximo passo</p> 
+
+<h2>Passo 3</h2> 
+
+<p>Agora o usuário colocara seu nome e a comanda do pedido será gerada com as informações do pedido</p> 
+
+<h1>Estrutura do código</h1> 
+
+<h2>public class Cardapio</h2> 
+
+<p>Nesta classe haverá informações sobre os pratos</p> 
+
+<h3>Atributos da classe Cardapio</h3> 
+
+<p>-public string nome_prato: este atributo guardara o nome do prato </p> 
+
+<p>-public string descricao_prato: este atributo guardara o que o prato possui</p> 
+
+<p>-public int preco_prato: este atributo guardara o preço por unidade do prato</p> 
+
+<h2>Métodos da classe Cardapio</h2> 
+
+<h3>-public void monstrar_cardapio: neste método será mostrado o cardápio com o nome do prato, sua descrição e seu preço</h3> 
+
+<h2>public class Pedido</h2> 
+
+<p>Nesta classe serão guardadas as informações do pedido</p> 
+
+<h3>Atributos da classe pedido</h3> 
+
+<p>-public string nome_cliente: Atributo que guardara o nome do cliente</p> 
+
+<p>-public string codigo_pedido: Atributo que guardara o código do pedido gerado aletoriamente</p> 
+
+<p>-public int qtdep,qtder,qtdem: atributos que guardarão a quantidade de cada prato</p> 
+
+<p>-public int total: Atributo que guardara o total da compra</p> 
+
+<P>-public string metododepag: Atributo que guarda o método de pagamento</P> 
+
+<h3>Métodos da classe Pedido</h3> 
+
+<p>-public void fazer_pedido: Método em que o usuário selecionara o prato e sua quantidade para ser gerado o valor total</p> 
+
+<p>-public void fazer_pagamento: Método que o usuário informará seu método de pagamento</p> 
+
+<P>-public void gerer_comanda: Método em que o sistema gerara uma comanda com as informações do pedido</P> 
+
+  
