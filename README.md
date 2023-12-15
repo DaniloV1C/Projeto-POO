@@ -150,7 +150,7 @@
 
   
 
-<h3>-public void monstrar_cardapio: Neste método será mostrado o cardápio com o nome do prato, sua descrição e seu preço</h3>   
+<p>-public void monstrar_cardapio: Neste método será mostrado o cardápio com o nome do prato, sua descrição e seu preço</p>   
 
   
 
