@@ -302,7 +302,7 @@
 
   
 
-<h2>RNF-01</h2>  
+<h2>RNF-01: Disponibilidade</h2>  
 
   
 
@@ -310,8 +310,13 @@
 
   
 
-<h2>Transparência: O Sistema deve fornecer as informações corretas sobre a compra do usuário</h2> 
+<h2>RFN-02: Transparência </h2>  
 
+<p>O Sistema deve fornecer as informações corretas sobre a compra do usuário</p> 
+
+<h2>RFN-03: Acessibilidade</h2> 
+
+<p> O sistema deve fornecer informações claras sobre os produtos</p> 
   
 
    
